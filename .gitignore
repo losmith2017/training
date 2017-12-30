@@ -1,2 +1,2 @@
-"Ignore PDF Files" 
-"*.pdf" 
+# Ignore PDF Files
+*.pdf
