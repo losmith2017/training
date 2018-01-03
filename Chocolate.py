@@ -17,7 +17,7 @@ def main():
 		print "ERROR: The number of test cases must be greater than 0 and less than 100"
 		return
 
-	print 'Number of tests', T, '\n'
+	print 'Number of test cases', T, '\n'
 	i = 0
 	while (i < T):
 		N = int(f.readline())
