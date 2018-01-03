@@ -77,6 +77,7 @@ def main():
 		
 	if (f.readline() != ''):
 		print '\nERROR: Not at end of file, there should not be more than', T, 'tests.'
+		return 0
 		
 	f.close()
 	
