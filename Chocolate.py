@@ -42,7 +42,7 @@ def main():
 			return 1
 		
 		if (len(A) != len(filter(lambda x: x > 0, A))) or (len(A) != len(filter(lambda x: x <= 100, A))):
-			print '\nERROR: Numbers in the packets list are either less than 1 or greater than 100', A
+			print '\nERROR: The number of items in the packets are either less than 1 or greater than 100', A
 			return 1
 			
 		A_Sort=sorted(A)
