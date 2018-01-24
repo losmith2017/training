@@ -1,7 +1,7 @@
 import sys
 import os
 
-the_number = int(raw_input("Enter number: "))
+the_number = int(raw_input("Enter integer: "))
 
 message = "List of numbers that divide into " + str(the_number) + " are:"
 
