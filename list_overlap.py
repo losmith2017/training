@@ -13,13 +13,13 @@ b = []
 
 i = 0
 while i <= num_elements_a:
-	a.append(randint(0, 200))
+	a.append(randint(0, 100))
 	i += 1
 	
 	
 i = 0
 while i <= num_elements_b:
-	b.append(randint(0, 200))
+	b.append(randint(0, 100))
 	i += 1
 	
 	
