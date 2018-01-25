@@ -4,7 +4,7 @@ from random import randint
 
 
 num_elements_a = 20
-num_elements_b = 25 
+num_elements_b = 30 
 
 a = []
 b = []
