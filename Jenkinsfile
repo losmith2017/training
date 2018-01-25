@@ -1,9 +1,13 @@
 pipeline {
-    agent { docker 'python:2.7.12' }
+    agent any
     stages {
-        stage('build') {
+        stage('Build') {
             steps {
-                sh 'python --version'
+                sh 'echo "Hello World"'
+                sh '''
+                    echo "Multiline shell steps works too"
+                    ls -lah
+                '''
             }
         }
     }
