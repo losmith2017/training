@@ -33,9 +33,9 @@ print b
 
 print "Common numbers in two list are: " + ' '.join(map(str,common_list))
 		
-common_set = set([x for x in a if x in b])
-common_list_2 = list(common_set)
+# common_set = set([x for x in a if x in b])
+# common_list_2 = list(common_set)
 
-print common_list_2
+# print common_list_2
 
 exit ()
