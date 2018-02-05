@@ -14,4 +14,4 @@ for x in range(1,the_number+1):
 		
 print message
 		
-exit ()
+exit (0)
