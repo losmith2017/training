@@ -2,7 +2,7 @@ import sys
 import os
 import random
 
-len_numlist = random.randint(5, 50)
+len_numlist = random.randint(5, 40)
 
 print len_numlist
 
