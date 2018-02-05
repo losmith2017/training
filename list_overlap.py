@@ -5,21 +5,21 @@ import os
 from random import randint
 
 
-num_elements_a = 20
-num_elements_b = 25
+num_elements_a = 25
+num_elements_b = 35
 
 a = []
 b = []
 
 i = 0
 while i <= num_elements_a:
-	a.append(randint(0, 100))
+	a.append(randint(0, 150))
 	i += 1
 	
 	
 i = 0
 while i <= num_elements_b:
-	b.append(randint(0, 100))
+	b.append(randint(0, 150))
 	i += 1
 	
 	
