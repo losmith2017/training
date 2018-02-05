@@ -1,3 +1,4 @@
+#!/usr/bin/env groovy
 stage('Build') {
-    sh 'echo "Hello Worls"'
+    sh 'echo "Hello World"'
 }
