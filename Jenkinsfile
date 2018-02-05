@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'list_overlap.py'
+                sh '/home/losmith/practice_python/list_overlap.py'
             }
         }
     }
