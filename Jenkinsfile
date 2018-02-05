@@ -1,4 +1,3 @@
-#! /usr/bin/env groovy
-node {
-	echo "Hello World"
+stage('Build') {
+    sh 'echo "Hello Worls"'
 }
