@@ -18,6 +18,7 @@ pipeline {
 		stage('Test') {
 			steps {
 				sh '/usr/bin/python /home/losmith/practice_python/even_odd.py 355'
+				junit '**/target/*.xml'
 			}
 		}
 	}
