@@ -1,6 +1,6 @@
+env.BUILD_ID = 5.0
 pipeline {
 	agent any
-	env.BUILD_NUMBER
 	stages {
 		stage('Stage 1') {
 			steps {
