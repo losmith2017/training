@@ -1,11 +1,10 @@
-env.BUILD_ID = 5.0
 pipeline {
 	agent any
 	stages {
 		stage('Stage 1') {
 			steps {
 				echo "Hello World"
-				echo env.BUILD_ID
+				echo "env.BUILD_ID"
 			}
 		}
 		stage('Stage 2') {
@@ -18,7 +17,6 @@ pipeline {
 		stage('Test') {
 			steps {
 				sh '/usr/bin/python /home/losmith/practice_python/even_odd.py 355'
-				junit '**/target/*.xml'
 			}
 		}
 	}
