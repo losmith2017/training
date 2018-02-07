@@ -6,5 +6,10 @@ pipeline {
 				echo "Hello World"
 			}
 		}
+		stage('Stage 2') {
+			steps {
+				sh 'list_comprehensions.py'
+			}
+		}
 	}
 }
