@@ -1,5 +1,6 @@
 pipeline {
 	agent any
+	env.BUILD_NUMBER
 	stages {
 		stage('Stage 1') {
 			steps {
