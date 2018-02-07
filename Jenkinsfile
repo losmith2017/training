@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage('Stage 2') {
 			steps {
-				sh '/home/losmith/practice_python/list_comprehensions.py'
+				sh '/usr/bin/python /home/losmith/practice_python/list_comprehensions.py'
 			}
 		}
 	}
