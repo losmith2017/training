@@ -10,8 +10,8 @@ pipeline {
 		}
 		stage('Stage 2') {
 			steps {
-				sh '/usr/bin/python /home/losmith/practice_python/list_comprehensions.py'
-			}
+				sh '/usr/bin/python /home/losmith/practice_python/list_comprehensions.py > list_output.txt'
+				archiveArtifacts artifacts: '**/*.txt', fingerprint true
 		}
 	}
 }
