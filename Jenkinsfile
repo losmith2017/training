@@ -14,10 +14,5 @@ pipeline {
 				archiveArtifacts artifacts: '**/textfiles/*.txt', fingerprint:true
 			}
 		}
-		stage('Test') {
-			steps {
-				sh '/usr/bin/python /home/losmith/practice_python/even_odd.py 355'
-			}
-		}
 	}
 }
