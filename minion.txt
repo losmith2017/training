@@ -1,0 +1,17 @@
+def minion_game(string):
+	import re
+    string = string.upper()
+    stuart_score = 0
+    for i in range(0,len(string)):
+        if not string[i] in "AEIOU":
+			j = 0
+			while j < len(string):
+				print s_string[i:i+j]
+				stuart_score = stuart_score + len(re.findall(s_string[i:i+j], s_string))
+				j += j
+	print stuart_score
+				
+		
+if __name__ == '__main--':
+	s = "BANANA"
+	minion_game(s)
